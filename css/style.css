@@ -1,0 +1,171 @@
+*{
+    font-family: "Heebo";
+    padding: 0px;
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: end;
+    max-width: 1150px; 
+    margin: 27px auto 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    color:black;
+    margin-left: 1em;
+}
+
+.about-me{
+    max-width: 54rem;
+    margin: 11rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me img{
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+}
+
+.about-me p {
+    width: 497px;
+    font-size: 1rem;
+    line-height: 23px;
+}
+
+.about-me h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+.about-me div button {
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    background: coral;
+    border: none;
+    border-radius: 2px;
+    font-size: 1,2rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+
+
+
+
+@media (max-width: 600px) {
+.about-me{
+    flex-wrap: wrap;
+    }
+    
+    .projetos div{
+    margin: 0 auto;
+    
+    } 
+    .my-projetcs div h2{ 
+    display: flex;
+        justify-content: center;
+
+
+    }
+
+}
+
+.about-me div button {
+   
+    
+}
+
+.about-me img{
+    margin: 30px 70px;
+}
+
+
+.my-projetcs{
+    background: #384772
+   
+}
+
+
+.projetos{
+ max-width: 54rem;  
+    margin: 0 auto;
+    
+}
+
+.projetos div{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+    
+}
+
+.projetos div div{
+    width: 49%;
+    background: white;
+    border-radius: 8px;
+   
+    
+}
+
+.projetos div div div{
+   background: url(../img/abrigo.jpg);
+   height: 170px;
+   width: 100%;
+   background-size: cover;
+   border-radius: 8px;
+   background-position: center;
+}
+
+.projetos div div h3 {
+    margin-left: 23px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.projetos div div p {
+    margin-left: 23px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.projetos div div .projeto2{
+background-image: url(../img/academia.webp);
+
+
+}
+
+.projetos div div .projeto3{
+    background-image: url(../img/port.webp);
+    
+    }
+
+    .projetos div div .projeto4{
+        background-image: url(../img/construção.jpg);
+        
+        }
+
+    .my-projetcs div h2{
+    margin: 10px 0;
+    font-size: 28px;
+    color: white;
+    
+
+    }
+
+
+    .my-projetcs {
+        margin: 70px 0;
+    }
